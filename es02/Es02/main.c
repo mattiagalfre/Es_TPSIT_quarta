@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_CHAR  20
-#define N_STUD  2
+#define N_STUD  5
 
 /*
 Definire una struttura per memorizzare i dati degli
@@ -28,12 +28,10 @@ int main()
     for(k = 0; k < N_STUD; k++){
         printf("Inserisci i dati dello studente [%d]", k+1);
         printf("\nNome: ");
-        //gets(classe[k].nome);
         scanf("%s", classe[k].nome);
         fflush(stdin);
         printf("\nCognome: ");
-        //gets(classe[k].cognome);
-        scanf("%s", classe[k].nome);
+        scanf("%s", classe[k].cognome);
         fflush(stdin);
         printf("\nMatricola: ");
         scanf("%d", &classe[k].matricola);
