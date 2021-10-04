@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633345291 source:c:\users\client\desktop\scuola\tpsit\estogliquadre\main.c
+	<stdio.h>
+	<stdlib.h>
+
