@@ -1,6 +1,0 @@
-Definire una struttura per memorizzare i dati degli 
-studenti di una classe e dei voti nelle varie discipline: 
-Italiano, Matematica e Informatica.
-Si scriva una funzione in C che, a partire da un vettore di studenti fornito come argomento,
-determini la disciplina che ha la media più alta.
-
