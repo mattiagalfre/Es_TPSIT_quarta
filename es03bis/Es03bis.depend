@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1633682022 source:c:\users\client\desktop\scuola\informatica\esercizi_codeblocks\4arob\es03bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1633682514 source:c:\users\client\desktop\scuola\tpsit\c\es03bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1634555551 source:c:\users\client\desktop\scuola\tpsit\c\es03puntatori\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
