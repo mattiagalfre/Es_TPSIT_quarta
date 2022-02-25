@@ -1,1 +1,0 @@
-Scrivere un programma che verifichi se la stringa data in input è palindroma o no
