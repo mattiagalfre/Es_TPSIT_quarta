@@ -18,7 +18,7 @@ Nodo * formattaLista(Nodo** tail) {
     scanf("%d", &n);
     int num;
     Nodo * head=NULL;
-    Nodo r=(Nodo)malloc(sizeof(Nodo));
+    Nodo *r = (Nodo*)malloc(sizeof(Nodo));
     Nodo * cur=head;
     for(int k=0; k< n; k++) {
         printf("Dammi un numero: ");
@@ -114,12 +114,11 @@ Nodo* invertiCoda(Nodo ** head) {
 int main() {
     Nodo* tail=NULL;
     Nodo * head=formattaLista(&tail);
+    printf("\nCoda iniziale: ");
     stampaLista(head);
-    printf("Coda invertita: ");
-    tail=invertiCoda(&head);
+    printf("\nCoda invertita: ");
+    tail = invertiCoda(&head);
     stampaLista(head);
     denqueue(&head);
     printf("\n");
-    stampaLista(head);
-
 }
